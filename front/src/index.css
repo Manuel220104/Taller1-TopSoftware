@@ -1,0 +1,178 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your other styles */
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fffafa;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.input{
+  background-color: white;
+  color: black;
+}
+
+.Boton-InicioSesion{
+  display: block;
+  margin-top: 8px;
+  background-color: #5ABCF4;
+  color: #ffffff; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  border: 1px solid #5ABCF4; 
+  transition: background-color 0.3s, color 0.3s;
+  padding: 5px; 
+  cursor: pointer;
+  border-radius: 9px;
+
+}
+
+
+
+
+.container-accounts{
+width: 400px;
+}
+
+.custom-input:-webkit-autofill {
+  /* Aplica estilos específicos cuando está autocompletado en navegadores basados en WebKit (como Chrome) */
+  background-color: #f5f5f5; /* Cambia el color de fondo, ajusta según tus preferencias */
+ /* Cambia el color del texto, ajusta según tus preferencias */
+}
+
+
+.container {
+  margin-top: 40px;
+}
+
+.MyAccountContainer{
+  margin: 4vw 15vw 0vw 6vw ;
+  color: #000000;
+}
+
+.Profile-logo {
+  width: 300px; /* Establecer el ancho al 100% del contenedor */
+  height: 210px; /* Mantener la proporción original de la imagen */
+  max-width: 200px; /* O establecer un ancho máximo si lo prefieres */
+  margin-left: -30px;
+}
+
+.Title_MyAccount {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: -2px;
+  font-family: var(--fuentePrincipal);
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.Subtitle_MyAccount {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-left: auto;
+}
+
+.Title{
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: -2px;
+  width: auto;
+  display: block;
+  font-family: var(--fuentePrincipal);
+  margin-left: -10px;
+  }
+
+  .borderInput{
+    border-radius: 10px;
+    border: 1px solid #5ABCF4;
+    padding-left: 10px;
+    height: 35px;
+  }
+
+  .Boton-Guardar{
+    display: block;
+    margin-top: 25px;
+    background-color: #5ABCF4;
+    color: #ffffff; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    border: 1px solid #5ABCF4; 
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px; 
+    cursor: pointer;
+    border-radius: 9px;
+  }
+
+  .separator{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .information{
+    margin-left: 40px;
+  }
